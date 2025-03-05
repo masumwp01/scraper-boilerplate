@@ -190,23 +190,6 @@ foreach ( $data as $key=> $value){
 	}
 }
 
-echo "<pre>";
-print_r( $data );
-echo "</pre>";
-
-
-//// Prepare the filename based on the title
-//$filename = strtolower(str_replace(' ', '_', $name)) . '.json';
-//
-//// Define the full path to the JSON file in the current directory
-//$filePath = __DIR__ . '/' . $filename;
-//
-//// Encode the associative array back to JSON format
-//$jsonContent = json_encode($data, JSON_PRETTY_PRINT);
-//
-//// Save the JSON content to the file
-//file_put_contents($filePath, $jsonContent);
-
 
 
 
